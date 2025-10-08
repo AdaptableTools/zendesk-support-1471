@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+/**
+ *      Adaptable styles
+ */
+@import '@adaptabletools/adaptable-angular-aggrid/index.css';
+@import '@adaptabletools/adaptable-angular-aggrid/themes/dark.css';
+
+:root {
+  --ab__font-family: Helvetica;
+}
+
+body {
+  font-family: var(--ab__font-family);
+  padding: 0;
+  margin: 0;
+}
